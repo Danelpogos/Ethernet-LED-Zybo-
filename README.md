@@ -1,16 +1,16 @@
-                                                                Spring 2022
-                                                    California State University, Northridge    
-                                                Department of Electrical & Computer Engineering
+                                                    Spring 2022
+                                      California State University, Northridge    
+                                   Department of Electrical & Computer Engineering
 
 _______ 
 ________________________________________ ![Logo](CSUN.png)__________________________________________
 
-                                                                Final Project
-                                                                Ethernet Led
-                                                           Professor: Saba Janamian
-                                                              Date: 05/17/2022
-                                                  ECE 520(System on Chip Design and Laboratory)
-                                                              Daniel Poghosyan 
+                                                    Final Project
+                                                     Ethernet Led
+                                              Professor: Saba Janamian
+                                                 Date: 05/17/2022
+                                     ECE 520(System on Chip Design and Laboratory)
+                                                   Daniel Poghosyan 
 
 
 

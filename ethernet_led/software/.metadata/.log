@@ -1,0 +1,594 @@
+!SESSION 2022-05-17 23:58:48.329 -----------------------------------------------
+eclipse.buildId=2021.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+This is a continuation of log file /home/danny/class/Final_Project/ethernet_led/software/.metadata/.bak_0.log
+Created Time: 2022-05-18 01:12:39.269
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:12:39.269
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:12:39.269
+!MESSAGE XSCT Command: [con], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:12:39.294
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:52.509
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-140
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:52.528
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-140
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.532
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.558
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.559
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.583
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.584
+!MESSAGE XSCT Command: [version -server], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.585
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.2.0]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.586
+!MESSAGE XSCT Command: [version], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.587
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.2.0
+SW Build 3363252 on 2021-10-14-04:41:01
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.587
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.595
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.596
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.615
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.615
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.621
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.622
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.638
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.639
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.644
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.644
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.663
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.664
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.670
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.670
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.686
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.686
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.691
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.692
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.709
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.709
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.714
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.714
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.735
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.736
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351AF24E5A" && level == 0}], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.753
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351AF24E5A" && level == 0}], Result: [null, ]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.753
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.755
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.755
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.772
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.773
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.830
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:53.831
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:56.835
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:56.875
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:56.882
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:56.883
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:56.902
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:56.903
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF24E5A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:56.941
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF24E5A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:56.942
+!MESSAGE XSCT Command: [fpga -file /home/danny/class/Final_Project/ethernet_led/software/ether_led/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:58.148
+!MESSAGE XSCT command with result: [fpga -file /home/danny/class/Final_Project/ethernet_led/software/ether_led/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:58.176
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:58.196
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:58.196
+!MESSAGE XSCT Command: [loadhw -hw /home/danny/class/Final_Project/ethernet_led/software/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:58.213
+!MESSAGE XSCT command with result: [loadhw -hw /home/danny/class/Final_Project/ethernet_led/software/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_0]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:58.214
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:58.215
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:58.216
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:58.230
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:58.231
+!MESSAGE XSCT Command: [source /home/danny/class/Final_Project/ethernet_led/software/ether_led/_ide/psinit/ps7_init.tcl], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:58.234
+!MESSAGE XSCT command with result: [source /home/danny/class/Final_Project/ethernet_led/software/ether_led/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:58.238
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:58.692
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:58.693
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:58.700
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:58.701
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:58.714
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:58.714
+!MESSAGE XSCT Command: [dow /home/danny/class/Final_Project/ethernet_led/software/ether_led/Debug/ether_led.elf], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:59.105
+!MESSAGE XSCT command with result: [dow /home/danny/class/Final_Project/ethernet_led/software/ether_led/Debug/ether_led.elf], Result: [null, ]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:59.106
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:59.135
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:59.142
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:59.152
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:59.153
+!MESSAGE XSCT Command: [con], Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:13:59.192
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-17: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:02.496
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-190
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:02.511
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-190
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.523
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.528
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.529
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.541
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.542
+!MESSAGE XSCT Command: [version -server], Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.544
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.2.0]. Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.544
+!MESSAGE XSCT Command: [version], Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.546
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.2.0
+SW Build 3363252 on 2021-10-14-04:41:01
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.547
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.553
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.553
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.569
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.570
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.576
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.576
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.593
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.593
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.602
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.602
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.619
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.619
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.625
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.626
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.642
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.643
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.649
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A (closed)]. Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:03.649
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A (closed)" && level==1}], Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:06.667
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A (closed)" && level==1}], Result: [null, ]. Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:09.668
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A (closed)" && level==1}], Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:12.699
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A (closed)" && level==1}], Result: [null, ]. Thread: Worker-13: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.312
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.317
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.318
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.323
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.324
+!MESSAGE XSCT Command: [version -server], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.325
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.2.0]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.325
+!MESSAGE XSCT Command: [version], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.326
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.2.0
+SW Build 3363252 on 2021-10-14-04:41:01
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.327
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.332
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.332
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.348
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.348
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.354
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.354
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.370
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.371
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.376
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.376
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.392
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.392
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.398
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.399
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.417
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.417
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.424
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.424
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.439
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.439
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.445
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.445
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.463
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.464
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351AF24E5A" && level == 0}], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.479
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351AF24E5A" && level == 0}], Result: [null, ]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.480
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.481
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.481
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.489
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.489
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.546
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:18.547
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:21.551
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:21.638
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:21.667
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF24E5A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:21.667
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:21.702
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:21.703
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF24E5A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:21.751
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF24E5A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF24E5A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:21.751
+!MESSAGE XSCT Command: [fpga -file /home/danny/class/Final_Project/ethernet_led/software/ether_led/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:22.957
+!MESSAGE XSCT command with result: [fpga -file /home/danny/class/Final_Project/ethernet_led/software/ether_led/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:22.979
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:22.993
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:22.993
+!MESSAGE XSCT Command: [loadhw -hw /home/danny/class/Final_Project/ethernet_led/software/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.007
+!MESSAGE XSCT command with result: [loadhw -hw /home/danny/class/Final_Project/ethernet_led/software/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_0]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.007
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.014
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.016
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.032
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.033
+!MESSAGE XSCT Command: [source /home/danny/class/Final_Project/ethernet_led/software/ether_led/_ide/psinit/ps7_init.tcl], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.035
+!MESSAGE XSCT command with result: [source /home/danny/class/Final_Project/ethernet_led/software/ether_led/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.036
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.384
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.385
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.391
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.391
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.403
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.403
+!MESSAGE XSCT Command: [dow /home/danny/class/Final_Project/ethernet_led/software/ether_led/Debug/ether_led.elf], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.754
+!MESSAGE XSCT command with result: [dow /home/danny/class/Final_Project/ethernet_led/software/ether_led/Debug/ether_led.elf], Result: [null, ]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.755
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.787
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.798
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.812
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.812
+!MESSAGE XSCT Command: [con], Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 01:15:23.845
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-18: Launching Debugger_ether_led-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 02:09:03.909
+!MESSAGE XSCT Command: [disconnect tcfchan#4], Thread: Thread-257
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-05-18 02:09:03.916
+!MESSAGE XSCT command with result: [disconnect tcfchan#4], Result: [null, ]. Thread: Thread-257

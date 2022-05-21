@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Fri May 13 21:21:20 2022
+# Process ID: 30718
+# Current directory: /home/danny/class/ethernet_led/hardware/et_led/et_led.runs/design_1_auto_pc_0_synth_1
+# Command line: vivado -log design_1_auto_pc_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_auto_pc_0.tcl
+# Log file: /home/danny/class/ethernet_led/hardware/et_led/et_led.runs/design_1_auto_pc_0_synth_1/design_1_auto_pc_0.vds
+# Journal file: /home/danny/class/ethernet_led/hardware/et_led/et_led.runs/design_1_auto_pc_0_synth_1/vivado.jou
+# Running On: dannyDan, OS: Linux, CPU Frequency: 3000.229 MHz, CPU Physical cores: 2, Host memory: 16653 MB
+#-----------------------------------------------------------
+source design_1_auto_pc_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:22 . Memory (MB): peak = 2682.258 ; gain = 3.992 ; free physical = 2473 ; free virtual = 9624
+Command: synth_design -top design_1_auto_pc_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 30855
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:31 . Memory (MB): peak = 2682.340 ; gain = 0.000 ; free physical = 141 ; free virtual = 5674
+---------------------------------------------------------------------------------

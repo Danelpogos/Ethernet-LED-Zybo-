@@ -1,0 +1,352 @@
+/*
+
+Xilinx Vitis v2021.2.0 (64-bit) [Major: 2021, Minor: 2]
+SW Build 3363750 on 2021-10-16-13:10:08
+
+Process ID (PID): 2181
+License: Customer
+
+Current time: 	Sat May 14 11:13:18 PDT 2022
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Ubuntu
+OS Version: 5.13.0-41-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 1920x1080
+Available screens: 1
+Available disk space: 1,582 GB
+
+Java version: 	11.0.11 64-bit
+Java home: 	/tools/Xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9
+Java executable location: 	/tools/Xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9/bin/java
+Java initial memory (-Xms): 	64 MB
+Java maximum memory (-Xmx):	 1,024 MB
+
+Java library paths: /tools/Xilinx/Vitis/2021.2/tps/lnx64/javafx-sdk-11.0.2/lib:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o/Ubuntu/20:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o:/tools/Xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9/lib/:/tools/Xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9/lib//server:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o/Ubuntu/20:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o:/tools/Xilinx/Vitis/2021.2/tps/lnx64/python-3.8.3/lib:/tools/Xilinx/Vitis/2021.2/aietools/lib/lnx64.o:/tools/Xilinx/Vitis/2021.2/bin/../lnx64/tools/dot/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+
+Java class paths: /tools/Xilinx/Vitis/2021.2/eclipse/lnx64.o//plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar
+LD_LIBRARY_PATH: /tools/Xilinx/Vitis
+
+User name: 	danny
+User home directory: /home/danny
+User working directory: /home/danny/class/ethernet_led/software
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vitis
+HDI_APPROOT: /tools/Xilinx/Vitis/2021.2
+RDI_DATADIR: /tools/Xilinx/Vitis/2021.2/data
+RDI_BINDIR: /tools/Xilinx/Vitis/2021.2/bin
+
+Vitis preferences directory: /home/danny/.Xilinx/Vitis/2021.2/
+Vitis workspace directory: /home/danny/class/ethernet_led/software
+Vitis workspace log file location: /home/danny/class/ethernet_led/software/.metadata/.log
+Engine tmp dir: 	
+
+Xilinx Environment Variables
+----------------------------
+XILINX_DSP: 
+XILINX_HLS: /tools/Xilinx/Vitis_HLS/2021.2
+XILINX_PLANAHEAD: /tools/Xilinx/Vitis/2021.2
+XILINX_SDK: /tools/Xilinx/Vitis/2021.2
+XILINX_VITIS: /tools/Xilinx/Vitis/2021.2
+XILINX_VIVADO: /tools/Xilinx/Vivado/2021.2
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2021.2
+_RDI_DONT_SET_XILINX_AS_PATH: True
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+selectTreeTable("Debug", "ether_led_system > ether_led", "Vitis Serial Terminal", "SDKTerminalView", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectTextEditor("echo.c", "ether_led/src/echo.c", EventType.POPUP_TRIGGER_CLICK, "CEditor", "StyledText.ECHO_C");
+selectMenuItem("Source", "echo.c", "WorkbenchWindow", "MenuItem.SOURCE");
+selectMenuItem("Add Block Comment", "ether_led", "WorkbenchWindow", "MenuItem.ADD_BLOCK_COMMENT");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Connect to serial port", "Vitis Serial Terminal", "SDKTerminalView", "ToolItem.CONNECT_TO_SERIAL");
+selectButton("OK", "Connect to serial port", "SerialConnectionDialog", "Button.OK");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+activateView("Executables", "ExecutablesView", "CTabItem.EXECUTABLES");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectButton("OK", "WARNING", "MessageDialogWithToggle", "Button.OK");
+selectButton("OK", "Error Launching Program", "ErrorDialog", "Button.OK");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTextEditor("echo.c", "ether_led/src/echo.c", EventType.POPUP_TRIGGER_CLICK, "CEditor", "StyledText.ECHO_C");
+selectMenuItem("Source", "echo.c", "WorkbenchWindow", "MenuItem.SOURCE");
+selectMenuItem("Add Block Comment", "ether_led", "WorkbenchWindow", "MenuItem.ADD_BLOCK_COMMENT");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectProblemsView("Warnings", "ether_led_system", "ConsoleView", "TreeViewer.MarkerViewerContentProvider");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectButton("OK", "WARNING", "MessageDialogWithToggle", "Button.OK");
+selectButton("OK", "Error Launching Program", "ErrorDialog", "Button.OK");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectButton("OK", "WARNING", "MessageDialogWithToggle", "Button.OK");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectButton("OK", "Error Launching Program", "ErrorDialog", "Button.OK");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "WorkbenchWindow", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectButton("OK", "WARNING", "MessageDialogWithToggle", "Button.OK");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectButton("OK", "Error Launching Program", "ErrorDialog", "Button.OK");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "WorkbenchWindow", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectButton("OK", "WARNING", "MessageDialogWithToggle", "Button.OK");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectButton("OK", "Error Launching Program", "ErrorDialog", "Button.OK");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectButton("OK", "WARNING", "MessageDialogWithToggle", "Button.OK");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectButton("OK", "Error Launching Program", "ErrorDialog", "Button.OK");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectButton("OK", "WARNING", "MessageDialogWithToggle", "Button.OK");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectButton("OK", "WARNING", "MessageDialogWithToggle", "Button.OK");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectButton("OK", "Error Launching Program", "ErrorDialog", "Button.OK");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+activateView("Debug", "LaunchView", "CTabItem.DEBUG");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectButton("OK", "WARNING", "MessageDialogWithToggle", "Button.OK");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Connect to serial port", "Vitis Serial Terminal", "SDKTerminalView", "ToolItem.CONNECT_TO_SERIAL");
+selectCombo("/dev/ttyUSB2", "Connect to serial port", "SerialConnectionDialog", "ComboViewer.PORT");
+selectButton("OK", "Connect to serial port", "SerialConnectionDialog", "Button.OK");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectButton("OK", "WARNING", "MessageDialogWithToggle", "Button.OK");
+selectButton("OK", "Error Launching Program", "ErrorDialog", "Button.OK");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectButton("OK", "WARNING", "MessageDialogWithToggle", "Button.OK");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectButton("OK", "Error Launching Program", "ErrorDialog", "Button.OK");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "WorkbenchWindow", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectButton("OK", "WARNING", "MessageDialogWithToggle", "Button.OK");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectButton("OK", "Error Launching Program", "ErrorDialog", "Button.OK");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "WorkbenchWindow", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectButton("OK", "WARNING", "MessageDialogWithToggle", "Button.OK");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "ProjectExplorer", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectButton("OK", "WARNING", "MessageDialogWithToggle", "Button.OK");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectButton("OK", "Error Launching Program", "ErrorDialog", "Button.OK");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectTreeTable("ether_led", "ether_led_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Run As", "Explorer", "WorkbenchWindow", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "ether_led", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectToolBarButton("Design", "ether_led", "WorkbenchWindow", "ToolItem.DESIGN");
+selectToolBarButton("Debug", "ether_led", "WorkbenchWindow", "ToolItem.DEBUG");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
